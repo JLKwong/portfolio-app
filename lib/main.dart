@@ -12,7 +12,7 @@ class HelloWorldApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.black12,
           title:  Text(
-            'Hello world',
+            'Jamie Kwong',
             textDirection: TextDirection.ltr,
           ),
           centerTitle: true,
@@ -21,31 +21,11 @@ class HelloWorldApp extends StatelessWidget {
           child: Column(
             children: [
               Expanded(
-                child: Container(
-                  height: 200,
-                  width: 300,
-                  decoration: BoxDecoration(
-                    color: Colors.black26,
-                  ),
-                  alignment: Alignment.center,
-                  margin: EdgeInsets.all(20),
-                  child: Text(
-                    'Hello world',
-                    textDirection: TextDirection.ltr,
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ),
-              Expanded(
                 child: Row(
                   children: [
                     Expanded(
                       child: Container(
-                        height: 200,
+                        height: 800,
                         width: 300,
                         decoration: BoxDecoration(
                           color: Colors.black26,
@@ -53,67 +33,7 @@ class HelloWorldApp extends StatelessWidget {
                         alignment: Alignment.center,
                         margin: EdgeInsets.all(20),
                         child: Text(
-                          'Hello world',
-                          textDirection: TextDirection.ltr,
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Expanded(
-                      child: Container(
-                        height: 200,
-                        width: 300,
-                        decoration: BoxDecoration(
-                          color: Colors.black26,
-                        ),
-                        alignment: Alignment.center,
-                        margin: EdgeInsets.all(20),
-                        child: Text(
-                          'Hello world',
-                          textDirection: TextDirection.ltr,
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Expanded(
-                      child: Container(
-                        height: 200,
-                        width: 300,
-                        decoration: BoxDecoration(
-                          color: Colors.black26,
-                        ),
-                        alignment: Alignment.center,
-                        margin: EdgeInsets.all(20),
-                        child: Text(
-                          'Hello world',
-                          textDirection: TextDirection.ltr,
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Expanded(
-                      child: Container(
-                        height: 200,
-                        width: 300,
-                        decoration: BoxDecoration(
-                          color: Colors.black26,
-                        ),
-                        alignment: Alignment.center,
-                        margin: EdgeInsets.all(20),
-                        child: Text(
-                          'Hello world',
+                          'Hey! I\'m a Software engineering intern seeking to apply experience with software quality assurance testing, hardware/software troubleshooting and testing, software development, embedded systems, low-level programming, grit, resilience, interpersonal skills, and organizational skills in a gender-inclusive software engineering career. I have 9 months of experience automating IT tasks using Python/batch scripts and modifying an Oracle SQL database.',
                           textDirection: TextDirection.ltr,
                           style: TextStyle(
                             fontSize: 20,
@@ -124,46 +44,6 @@ class HelloWorldApp extends StatelessWidget {
                       ),
                     ),
                   ],
-                ),
-              ),
-              Expanded(
-                child: Container(
-                  height: 200,
-                  width: 300,
-                  decoration: BoxDecoration(
-                    color: Colors.black26,
-                  ),
-                  alignment: Alignment.center,
-                  margin: EdgeInsets.all(20),
-                  child: Text(
-                    'Hello world',
-                    textDirection: TextDirection.ltr,
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ),
-              Expanded(
-                child: Container(
-                  height: 200,
-                  width: 300,
-                  decoration: BoxDecoration(
-                    color: Colors.black26,
-                  ),
-                  alignment: Alignment.center,
-                  margin: EdgeInsets.all(20),
-                  child: Text(
-                    'Hello world',
-                    textDirection: TextDirection.ltr,
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
                 ),
               ),
             ],
